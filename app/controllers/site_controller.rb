@@ -15,7 +15,7 @@ class SiteController < ApplicationController
       howto:          'Как это работает',
       pravila_photo:  'Правила фотографирования',
       payment:        'Как оплатить',
-      contacts:       'Контакты',
+      contacts:       'О компании',
       documents:      'Нормативные документы'
     }[params[:action].to_sym]
   end

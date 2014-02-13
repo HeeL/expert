@@ -9,7 +9,7 @@ gem 'execjs'
 gem 'therubyracer'
 
 
-gem 'authlogic', :git => 'https://github.com/james2m/authlogic.git', :branch => 'fix-migrations'
+gem 'authlogic'#, :git => 'https://github.com/james2m/authlogic.git', :branch => 'fix-migrations'
 gem "paperclip", "~> 2.4"
 gem 'russian'
 gem 'will_paginate'

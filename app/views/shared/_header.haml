@@ -4,8 +4,8 @@
     %strong Оценка ущерба, причиненного автомобилю в результате аварии (ДТП)
   .phone
     .inner
-      %span +7 (495)
-      762-13-60
+      %span +7 (916)
+      029-11-51
     .menu
       - unless current_user
         = link_to "Личный кабинет", :login, :class=>'AmodalAuth' unless controller.controller_name=='user_sessions'
@@ -18,6 +18,6 @@
       %li= link_to "Идея проекта", :about
       %li= link_to "Как это работает", :howto
       %li= link_to "Нормативные документы", :documents
-      %li= link_to "Контакты", :contacts
+      %li= link_to "О компании", :contacts
   .topmenuR<>
     = link_to "Заказать экспертизу", :new_order, :class=>"zakaz #{current_user ? nil : 'AmodalReg' }"
